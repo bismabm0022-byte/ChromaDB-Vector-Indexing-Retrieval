@@ -9,6 +9,17 @@ This repository implements document loading, text chunking, embedding generation
 - Persistent storage and retrieval verification via ChromaDB
 - Chunk size impact comparison
 
+##  Project Structure
+
+```text
+.
+├── sample_docs/            # Input document directory (.txt, .pdf, .md)
+├── chroma_db/              # Persistent vector database output (ignored by git)
+├── index_documents.py      # Main pipeline script
+├── requirements.txt        # Python dependency specifications
+├── .gitignore              # Keeps heavy local DB files out of version control
+└── README.md               # Project documentation
+
 ## How to Run
 
 1. **Clone the repo and set up venv:**
