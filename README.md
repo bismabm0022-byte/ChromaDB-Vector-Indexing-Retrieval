@@ -1,4 +1,4 @@
-# AI Engineering Track - Document Indexing with ChromaDB
+# Document Indexing with ChromaDB
 
 This repository implements document loading, text chunking, embedding generation, and persistent vector storage using **ChromaDB** and **LangChain**.
 
